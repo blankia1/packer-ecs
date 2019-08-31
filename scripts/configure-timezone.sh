@@ -14,4 +14,5 @@ EOF
 sudo ln -sf /usr/share/zoneinfo/$timezone /etc/localtime
 
 # Enable NTP
-sudo chkconfig ntpd on
+# Below gives an error
+#sudo chkconfig ntpd on
